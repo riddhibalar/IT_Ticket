@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Caviar;
+  src: url(/project/fonts/Caviar-Dreams/CaviarDreams.ttf);
+}
+
+@font-face {
+	font-family: Josefin;
+	src: url(/project/fonts/josefin-sans/JosefinSans-Light.ttf);
+}
+
+body{
+	font-family: Josefin;
+	color: white;
+	margin: 0;
+	background-image: linear-gradient(to top, #0066ff, #002244);
+	background-position: center center;
+	background-size: cover;
+	background-blend-mode: color;
+	height: 800px;
+}
+
+.area{
+	overflow: hidden;
+	font-size: 14px;
+	padding: 8px 8px;
+	margin: 8px 8px;
+	outline: none;
+	border: 2px solid #4caf50;
+	background: none;
+	color: #9999FF;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+}
+
+.table{
+	width: 100%;
+	background: none;
+	/*border: 2px solid #ffff00;*/
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+}
+	
+.expanded{
+	/*width: 100%;*/
+	background: none;
+	/*border: 2px solid #ffff00;*/
+	color: white;
+	/*padding: 5px;*/
+	font-size: 18px;
+	cursor: pointer;
+	/*margin: 12px 0;*/
+}
